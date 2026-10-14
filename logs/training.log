@@ -1,0 +1,364 @@
+2026-10-14 12:40:22,006 - factorio_ai_uv.main - INFO - Running environment test only...
+2026-10-14 12:40:22,028 - factorio_ai_uv.screen_capture - INFO - Auto-detected Factorio window: {'top': 309, 'left': 425, 'width': 1139, 'height': 641}
+2026-10-14 12:40:46,387 - factorio_ai_uv.main - INFO - Running environment test only...
+2026-10-14 12:40:46,402 - factorio_ai_uv.screen_capture - INFO - Auto-detected Factorio window: {'top': 309, 'left': 425, 'width': 1139, 'height': 641}
+2026-10-14 12:40:56,414 - factorio_ai_uv.main - ERROR - Training failed: cannot assign to field 'rcon_host'
+Traceback (most recent call last):
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\main.py", line 418, in main
+    capture_config.rcon_host = args.rcon_host
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 4, in __setattr__
+dataclasses.FrozenInstanceError: cannot assign to field 'rcon_host'
+2026-10-14 12:41:21,510 - factorio_ai_uv.main - ERROR - Training failed: cannot assign to field 'rcon_host'
+Traceback (most recent call last):
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\main.py", line 418, in main
+    capture_config.rcon_host = args.rcon_host
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 4, in __setattr__
+dataclasses.FrozenInstanceError: cannot assign to field 'rcon_host'
+2026-10-14 12:43:59,189 - factorio_ai_uv.main - INFO - Running environment test only...
+2026-10-14 12:43:59,205 - factorio_ai_uv.screen_capture - INFO - Auto-detected Factorio window: {'top': 309, 'left': 425, 'width': 1139, 'height': 641}
+2026-10-14 12:44:16,430 - factorio_ai_uv.main - INFO - ============================================================
+2026-10-14 12:44:16,431 - factorio_ai_uv.main - INFO - Factorio Autonomous AI - Kruise_Kontrol + Screen Vision + PPO
+2026-10-14 12:44:16,431 - factorio_ai_uv.main - INFO - ============================================================
+2026-10-14 12:44:16,431 - factorio_ai_uv.main - INFO - Initializing environment...
+2026-10-14 12:44:16,449 - factorio_ai_uv.screen_capture - INFO - Auto-detected Factorio window: {'top': 309, 'left': 425, 'width': 1139, 'height': 641}
+2026-10-14 12:44:16,451 - factorio_ai_uv.main - ERROR - Training failed: No response from server
+Traceback (most recent call last):
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\main.py", line 443, in main
+    model, dataset = train(
+                     ^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\main.py", line 199, in train
+    if not env.connect():
+           ^^^^^^^^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\env.py", line 115, in connect
+    return self.client.connect()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\client.py", line 114, in connect
+    raise RCONError("No response from server")
+factorio_ai_uv.exceptions.RCONError: No response from server
+2026-10-14 12:44:22,135 - factorio_ai_uv.main - INFO - ============================================================
+2026-10-14 12:44:22,135 - factorio_ai_uv.main - INFO - Factorio Autonomous AI - Kruise_Kontrol + Screen Vision + PPO
+2026-10-14 12:44:22,135 - factorio_ai_uv.main - INFO - ============================================================
+2026-10-14 12:44:22,135 - factorio_ai_uv.main - INFO - Initializing environment...
+2026-10-14 12:44:22,148 - factorio_ai_uv.screen_capture - INFO - Auto-detected Factorio window: {'top': 309, 'left': 425, 'width': 1139, 'height': 641}
+2026-10-14 12:44:22,151 - factorio_ai_uv.main - ERROR - Training failed: No response from server
+Traceback (most recent call last):
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\main.py", line 443, in main
+    model, dataset = train(
+                     ^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\main.py", line 199, in train
+    if not env.connect():
+           ^^^^^^^^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\env.py", line 115, in connect
+    return self.client.connect()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\client.py", line 114, in connect
+    raise RCONError("No response from server")
+factorio_ai_uv.exceptions.RCONError: No response from server
+2026-10-14 12:45:03,437 - factorio_ai_uv.main - INFO - ============================================================
+2026-10-14 12:45:03,438 - factorio_ai_uv.main - INFO - Factorio Autonomous AI - Kruise_Kontrol + Screen Vision + PPO
+2026-10-14 12:45:03,438 - factorio_ai_uv.main - INFO - ============================================================
+2026-10-14 12:45:03,438 - factorio_ai_uv.main - INFO - Initializing environment...
+2026-10-14 12:45:03,451 - factorio_ai_uv.screen_capture - INFO - Auto-detected Factorio window: {'top': 246, 'left': 286, 'width': 1366, 'height': 720}
+2026-10-14 12:45:03,452 - factorio_ai_uv.main - ERROR - Training failed: No response from server
+Traceback (most recent call last):
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\main.py", line 443, in main
+    model, dataset = train(
+                     ^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\main.py", line 199, in train
+    if not env.connect():
+           ^^^^^^^^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\env.py", line 115, in connect
+    return self.client.connect()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\client.py", line 114, in connect
+    raise RCONError("No response from server")
+factorio_ai_uv.exceptions.RCONError: No response from server
+2026-10-14 12:46:17,505 - factorio_ai_uv.main - INFO - Running environment test only...
+2026-10-14 12:46:17,519 - factorio_ai_uv.screen_capture - INFO - Auto-detected Factorio window: {'top': -8, 'left': -8, 'width': 1936, 'height': 1048}
+2026-10-14 12:46:17,548 - factorio_ai_uv.client - INFO - Kruise_Kontrol_Remote connected
+2026-10-14 12:46:17,548 - factorio_ai_uv.client - INFO - Connected to Factorio RCON + Kruise_Kontrol_Remote
+2026-10-14 12:46:17,567 - factorio_ai_uv.main - INFO - Initial obs shape: (3, 84, 84)
+2026-10-14 12:46:17,699 - factorio_ai_uv.main - INFO - Action: move_N, Reward: 1.00
+2026-10-14 12:46:18,748 - factorio_ai_uv.main - INFO - Action: build_at_cursor, Reward: 1.00
+2026-10-14 12:46:19,764 - factorio_ai_uv.env - ERROR - Action 7 failed: FactorioClient.add_research() missing 1 required positional argument: 'tech_name'
+2026-10-14 12:46:19,832 - factorio_ai_uv.main - INFO - Action: research_error, Reward: 1.00
+2026-10-14 12:46:20,882 - factorio_ai_uv.main - INFO - Action: craft, Reward: 1.00
+2026-10-14 12:46:21,982 - factorio_ai_uv.main - INFO - Action: cancel, Reward: 1.00
+2026-10-14 12:46:22,997 - factorio_ai_uv.client - INFO - Disconnected from Factorio
+2026-10-14 12:46:22,997 - factorio_ai_uv.env - INFO - Environment closed
+2026-10-14 12:46:22,997 - factorio_ai_uv.main - INFO - Test complete!
+2026-10-14 12:46:35,782 - factorio_ai_uv.main - INFO - ============================================================
+2026-10-14 12:46:35,783 - factorio_ai_uv.main - INFO - Factorio Autonomous AI - Kruise_Kontrol + Screen Vision + PPO
+2026-10-14 12:46:35,783 - factorio_ai_uv.main - INFO - ============================================================
+2026-10-14 12:46:35,783 - factorio_ai_uv.main - INFO - Initializing environment...
+2026-10-14 12:46:35,796 - factorio_ai_uv.screen_capture - INFO - Auto-detected Factorio window: {'top': 0, 'left': 738, 'width': 1189, 'height': 1039}
+2026-10-14 12:46:35,831 - factorio_ai_uv.client - INFO - Kruise_Kontrol_Remote connected
+2026-10-14 12:46:35,831 - factorio_ai_uv.client - INFO - Connected to Factorio RCON + Kruise_Kontrol_Remote
+2026-10-14 12:46:35,832 - factorio_ai_uv.main - INFO - Environment wrapped for training
+2026-10-14 12:46:35,833 - factorio_ai_uv.main - INFO - Initializing new PPO model with random weights
+2026-10-14 12:46:35,834 - factorio_ai_uv.main - ERROR - Training failed: You should use NatureCNN only with images not with Box(0.0, 1.0, (3, 84, 84), float32)
+(you are probably using `CnnPolicy` instead of `MlpPolicy` or `MultiInputPolicy`)
+If you are using a custom environment,
+please check it using our env checker:
+https://stable-baselines3.readthedocs.io/en/master/common/env_checker.html.
+If you are using `VecNormalize` or already normalized channel-first images you should pass `normalize_images=False`: 
+https://stable-baselines3.readthedocs.io/en/master/guide/custom_env.html
+Traceback (most recent call last):
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\main.py", line 443, in main
+    model, dataset = train(
+                     ^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\main.py", line 207, in train
+    model = model_loader.load_or_initialize(vec_env)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\main.py", line 64, in load_or_initialize
+    model = PPO(
+            ^^^^
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\ppo\ppo.py", line 171, in __init__
+    self._setup_model()
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\ppo\ppo.py", line 174, in _setup_model
+    super()._setup_model()
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\common\on_policy_algorithm.py", line 135, in _setup_model
+    self.policy = self.policy_class(  # type: ignore[assignment]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\common\policies.py", line 818, in __init__
+    super().__init__(
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\common\policies.py", line 507, in __init__
+    self.features_extractor = self.make_features_extractor()
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\common\policies.py", line 120, in make_features_extractor
+    return self.features_extractor_class(self.observation_space, **self.features_extractor_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\common\torch_layers.py", line 76, in __init__
+    assert is_image_space(observation_space, check_channels=False, normalized_image=normalized_image), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: You should use NatureCNN only with images not with Box(0.0, 1.0, (3, 84, 84), float32)
+(you are probably using `CnnPolicy` instead of `MlpPolicy` or `MultiInputPolicy`)
+If you are using a custom environment,
+please check it using our env checker:
+https://stable-baselines3.readthedocs.io/en/master/common/env_checker.html.
+If you are using `VecNormalize` or already normalized channel-first images you should pass `normalize_images=False`: 
+https://stable-baselines3.readthedocs.io/en/master/guide/custom_env.html
+2026-10-14 12:48:32,338 - factorio_ai_uv.main - INFO - Running environment test only...
+2026-10-14 12:48:32,354 - factorio_ai_uv.screen_capture - INFO - Auto-detected Factorio window: {'top': -8, 'left': -8, 'width': 1936, 'height': 1048}
+2026-10-14 12:48:32,382 - factorio_ai_uv.client - INFO - Kruise_Kontrol_Remote connected
+2026-10-14 12:48:32,382 - factorio_ai_uv.client - INFO - Connected to Factorio RCON + Kruise_Kontrol_Remote
+2026-10-14 12:48:32,398 - factorio_ai_uv.main - INFO - Initial obs shape: (84, 84, 3)
+2026-10-14 12:48:32,515 - factorio_ai_uv.main - INFO - Action: move_N, Reward: 1.00
+2026-10-14 12:48:33,565 - factorio_ai_uv.main - INFO - Action: build_at_cursor, Reward: 1.00
+2026-10-14 12:48:34,580 - factorio_ai_uv.env - ERROR - Action 7 failed: FactorioClient.add_research() missing 1 required positional argument: 'tech_name'
+2026-10-14 12:48:34,648 - factorio_ai_uv.main - INFO - Action: research_error, Reward: 1.00
+2026-10-14 12:48:35,698 - factorio_ai_uv.main - INFO - Action: craft, Reward: 1.00
+2026-10-14 12:48:36,782 - factorio_ai_uv.main - INFO - Action: cancel, Reward: 1.00
+2026-10-14 12:48:37,797 - factorio_ai_uv.client - INFO - Disconnected from Factorio
+2026-10-14 12:48:37,797 - factorio_ai_uv.env - INFO - Environment closed
+2026-10-14 12:48:37,797 - factorio_ai_uv.main - INFO - Test complete!
+2026-10-14 12:50:23,754 - factorio_ai_uv.main - INFO - Running environment test only...
+2026-10-14 12:50:23,766 - factorio_ai_uv.screen_capture - INFO - Auto-detected Factorio window: {'top': 0, 'left': 738, 'width': 1189, 'height': 1039}
+2026-10-14 12:50:23,798 - factorio_ai_uv.client - INFO - Kruise_Kontrol_Remote connected
+2026-10-14 12:50:23,798 - factorio_ai_uv.client - INFO - Connected to Factorio RCON + Kruise_Kontrol_Remote
+2026-10-14 12:50:23,814 - factorio_ai_uv.main - INFO - Initial obs shape: (84, 84, 3)
+2026-10-14 12:50:23,915 - factorio_ai_uv.main - INFO - Action: move_N, Reward: 1.00
+2026-10-14 12:50:24,966 - factorio_ai_uv.main - INFO - Action: build_at_cursor, Reward: 1.00
+2026-10-14 12:50:26,049 - factorio_ai_uv.main - INFO - Action: research, Reward: 1.00
+2026-10-14 12:50:27,098 - factorio_ai_uv.main - INFO - Action: craft, Reward: 1.00
+2026-10-14 12:50:28,166 - factorio_ai_uv.main - INFO - Action: cancel, Reward: 1.00
+2026-10-14 12:50:29,181 - factorio_ai_uv.client - INFO - Disconnected from Factorio
+2026-10-14 12:50:29,181 - factorio_ai_uv.env - INFO - Environment closed
+2026-10-14 12:50:29,181 - factorio_ai_uv.main - INFO - Test complete!
+2026-10-14 12:50:48,178 - factorio_ai_uv.main - INFO - ============================================================
+2026-10-14 12:50:48,178 - factorio_ai_uv.main - INFO - Factorio Autonomous AI - Kruise_Kontrol + Screen Vision + PPO
+2026-10-14 12:50:48,178 - factorio_ai_uv.main - INFO - ============================================================
+2026-10-14 12:50:48,178 - factorio_ai_uv.main - INFO - Initializing environment...
+2026-10-14 12:50:48,192 - factorio_ai_uv.screen_capture - INFO - Auto-detected Factorio window: {'top': 0, 'left': 738, 'width': 1189, 'height': 1039}
+2026-10-14 12:50:48,213 - factorio_ai_uv.client - INFO - Kruise_Kontrol_Remote connected
+2026-10-14 12:50:48,213 - factorio_ai_uv.client - INFO - Connected to Factorio RCON + Kruise_Kontrol_Remote
+2026-10-14 12:50:48,214 - factorio_ai_uv.main - INFO - Environment wrapped for training
+2026-10-14 12:50:48,214 - factorio_ai_uv.main - INFO - Initializing new PPO model with random weights
+2026-10-14 12:50:48,215 - factorio_ai_uv.main - ERROR - Training failed: You should use NatureCNN only with images not with Box(0.0, 1.0, (84, 84, 3), float32)
+(you are probably using `CnnPolicy` instead of `MlpPolicy` or `MultiInputPolicy`)
+If you are using a custom environment,
+please check it using our env checker:
+https://stable-baselines3.readthedocs.io/en/master/common/env_checker.html.
+If you are using `VecNormalize` or already normalized channel-first images you should pass `normalize_images=False`: 
+https://stable-baselines3.readthedocs.io/en/master/guide/custom_env.html
+Traceback (most recent call last):
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\main.py", line 443, in main
+    model, dataset = train(
+                     ^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\main.py", line 207, in train
+    model = model_loader.load_or_initialize(vec_env)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\main.py", line 64, in load_or_initialize
+    model = PPO(
+            ^^^^
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\ppo\ppo.py", line 171, in __init__
+    self._setup_model()
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\ppo\ppo.py", line 174, in _setup_model
+    super()._setup_model()
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\common\on_policy_algorithm.py", line 135, in _setup_model
+    self.policy = self.policy_class(  # type: ignore[assignment]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\common\policies.py", line 818, in __init__
+    super().__init__(
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\common\policies.py", line 507, in __init__
+    self.features_extractor = self.make_features_extractor()
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\common\policies.py", line 120, in make_features_extractor
+    return self.features_extractor_class(self.observation_space, **self.features_extractor_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\common\torch_layers.py", line 76, in __init__
+    assert is_image_space(observation_space, check_channels=False, normalized_image=normalized_image), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: You should use NatureCNN only with images not with Box(0.0, 1.0, (84, 84, 3), float32)
+(you are probably using `CnnPolicy` instead of `MlpPolicy` or `MultiInputPolicy`)
+If you are using a custom environment,
+please check it using our env checker:
+https://stable-baselines3.readthedocs.io/en/master/common/env_checker.html.
+If you are using `VecNormalize` or already normalized channel-first images you should pass `normalize_images=False`: 
+https://stable-baselines3.readthedocs.io/en/master/guide/custom_env.html
+2026-10-14 12:52:01,944 - factorio_ai_uv.main - INFO - Running environment test only...
+2026-10-14 12:52:01,957 - factorio_ai_uv.screen_capture - INFO - Auto-detected Factorio window: {'top': 0, 'left': 738, 'width': 1189, 'height': 1039}
+2026-10-14 12:52:01,982 - factorio_ai_uv.client - INFO - Kruise_Kontrol_Remote connected
+2026-10-14 12:52:01,982 - factorio_ai_uv.client - INFO - Connected to Factorio RCON + Kruise_Kontrol_Remote
+2026-10-14 12:52:01,997 - factorio_ai_uv.main - INFO - Initial obs shape: (84, 84, 3)
+2026-10-14 12:52:02,099 - factorio_ai_uv.main - INFO - Action: move_N, Reward: 1.00
+2026-10-14 12:52:03,148 - factorio_ai_uv.main - INFO - Action: build_at_cursor, Reward: 1.00
+2026-10-14 12:52:04,233 - factorio_ai_uv.main - INFO - Action: research, Reward: 1.00
+2026-10-14 12:52:05,282 - factorio_ai_uv.main - INFO - Action: craft, Reward: 1.00
+2026-10-14 12:52:06,348 - factorio_ai_uv.main - INFO - Action: cancel, Reward: 1.00
+2026-10-14 12:52:07,364 - factorio_ai_uv.client - INFO - Disconnected from Factorio
+2026-10-14 12:52:07,364 - factorio_ai_uv.env - INFO - Environment closed
+2026-10-14 12:52:07,364 - factorio_ai_uv.main - INFO - Test complete!
+2026-10-14 12:52:20,453 - factorio_ai_uv.main - INFO - ============================================================
+2026-10-14 12:52:20,454 - factorio_ai_uv.main - INFO - Factorio Autonomous AI - Kruise_Kontrol + Screen Vision + PPO
+2026-10-14 12:52:20,454 - factorio_ai_uv.main - INFO - ============================================================
+2026-10-14 12:52:20,454 - factorio_ai_uv.main - INFO - Initializing environment...
+2026-10-14 12:52:20,469 - factorio_ai_uv.screen_capture - INFO - Auto-detected Factorio window: {'top': -8, 'left': -8, 'width': 1936, 'height': 1048}
+2026-10-14 12:52:20,497 - factorio_ai_uv.client - INFO - Kruise_Kontrol_Remote connected
+2026-10-14 12:52:20,498 - factorio_ai_uv.client - INFO - Connected to Factorio RCON + Kruise_Kontrol_Remote
+2026-10-14 12:52:20,499 - factorio_ai_uv.main - INFO - Environment wrapped for training
+2026-10-14 12:52:20,499 - factorio_ai_uv.main - INFO - Initializing new PPO model with random weights
+2026-10-14 12:52:20,502 - factorio_ai_uv.main - ERROR - Training failed: You should use NatureCNN only with images not with Box(0, 1, (84, 84, 3), uint8)
+(you are probably using `CnnPolicy` instead of `MlpPolicy` or `MultiInputPolicy`)
+If you are using a custom environment,
+please check it using our env checker:
+https://stable-baselines3.readthedocs.io/en/master/common/env_checker.html.
+If you are using `VecNormalize` or already normalized channel-first images you should pass `normalize_images=False`: 
+https://stable-baselines3.readthedocs.io/en/master/guide/custom_env.html
+Traceback (most recent call last):
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\main.py", line 443, in main
+    model, dataset = train(
+                     ^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\main.py", line 207, in train
+    model = model_loader.load_or_initialize(vec_env)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\src\factorio_ai_uv\main.py", line 64, in load_or_initialize
+    model = PPO(
+            ^^^^
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\ppo\ppo.py", line 171, in __init__
+    self._setup_model()
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\ppo\ppo.py", line 174, in _setup_model
+    super()._setup_model()
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\common\on_policy_algorithm.py", line 135, in _setup_model
+    self.policy = self.policy_class(  # type: ignore[assignment]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\common\policies.py", line 818, in __init__
+    super().__init__(
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\common\policies.py", line 507, in __init__
+    self.features_extractor = self.make_features_extractor()
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\common\policies.py", line 120, in make_features_extractor
+    return self.features_extractor_class(self.observation_space, **self.features_extractor_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\drian\Projects\factorio_ai_uv\.venv\Lib\site-packages\stable_baselines3\common\torch_layers.py", line 76, in __init__
+    assert is_image_space(observation_space, check_channels=False, normalized_image=normalized_image), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: You should use NatureCNN only with images not with Box(0, 1, (84, 84, 3), uint8)
+(you are probably using `CnnPolicy` instead of `MlpPolicy` or `MultiInputPolicy`)
+If you are using a custom environment,
+please check it using our env checker:
+https://stable-baselines3.readthedocs.io/en/master/common/env_checker.html.
+If you are using `VecNormalize` or already normalized channel-first images you should pass `normalize_images=False`: 
+https://stable-baselines3.readthedocs.io/en/master/guide/custom_env.html
+2026-10-14 12:55:30,825 - factorio_ai_uv.main - INFO - Running environment test only...
+2026-10-14 12:55:30,837 - factorio_ai_uv.screen_capture - INFO - Auto-detected Factorio window: {'top': 0, 'left': 738, 'width': 1189, 'height': 1039}
+2026-10-14 12:55:30,864 - factorio_ai_uv.client - INFO - Kruise_Kontrol_Remote connected
+2026-10-14 12:55:30,864 - factorio_ai_uv.client - INFO - Connected to Factorio RCON + Kruise_Kontrol_Remote
+2026-10-14 12:55:30,880 - factorio_ai_uv.main - INFO - Initial obs shape: (84, 84, 3)
+2026-10-14 12:55:30,981 - factorio_ai_uv.main - INFO - Action: move_N, Reward: 1.00
+2026-10-14 12:55:32,033 - factorio_ai_uv.main - INFO - Action: build_at_cursor, Reward: 1.00
+2026-10-14 12:55:33,131 - factorio_ai_uv.main - INFO - Action: research, Reward: 1.00
+2026-10-14 12:55:34,181 - factorio_ai_uv.main - INFO - Action: craft, Reward: 1.00
+2026-10-14 12:55:35,249 - factorio_ai_uv.main - INFO - Action: cancel, Reward: 1.00
+2026-10-14 12:55:36,264 - factorio_ai_uv.client - INFO - Disconnected from Factorio
+2026-10-14 12:55:36,264 - factorio_ai_uv.env - INFO - Environment closed
+2026-10-14 12:55:36,264 - factorio_ai_uv.main - INFO - Test complete!
+2026-10-14 12:55:44,331 - factorio_ai_uv.main - INFO - ============================================================
+2026-10-14 12:55:44,332 - factorio_ai_uv.main - INFO - Factorio Autonomous AI - Kruise_Kontrol + Screen Vision + PPO
+2026-10-14 12:55:44,332 - factorio_ai_uv.main - INFO - ============================================================
+2026-10-14 12:55:44,332 - factorio_ai_uv.main - INFO - Initializing environment...
+2026-10-14 12:55:44,345 - factorio_ai_uv.screen_capture - INFO - Auto-detected Factorio window: {'top': 0, 'left': 738, 'width': 1189, 'height': 1039}
+2026-10-14 12:55:44,364 - factorio_ai_uv.client - INFO - Kruise_Kontrol_Remote connected
+2026-10-14 12:55:44,364 - factorio_ai_uv.client - INFO - Connected to Factorio RCON + Kruise_Kontrol_Remote
+2026-10-14 12:55:44,365 - factorio_ai_uv.main - INFO - Environment wrapped for training
+2026-10-14 12:55:44,366 - factorio_ai_uv.main - INFO - Initializing new PPO model with random weights
+2026-10-14 12:55:48,515 - factorio_ai_uv.main - INFO - Starting training: 1 iterations, 10 steps/iter
+2026-10-14 12:55:48,515 - factorio_ai_uv.main - INFO - Initial dataset size: 0
+2026-10-14 12:55:49,333 - factorio_ai_uv.main - INFO - [Iter 1] Retraining PPO on 10 transitions...
+2026-10-14 12:55:49,677 - factorio_ai_uv.main - INFO -   -> Model saved: factorio_ai_model\factorio_ai_iter_1 (iter time: 1.2s, dataset: 10)
+2026-10-14 12:55:49,986 - factorio_ai_uv.main - INFO - Training complete
+2026-10-14 12:55:49,986 - factorio_ai_uv.main - INFO - Final model: factorio_ai_model\factorio_ai_final
+2026-10-14 12:55:49,986 - factorio_ai_uv.main - INFO - Dataset transitions: 10
+2026-10-14 12:55:49,986 - factorio_ai_uv.main - INFO - Training completed successfully
+2026-10-14 12:55:59,351 - factorio_ai_uv.main - INFO - ============================================================
+2026-10-14 12:55:59,351 - factorio_ai_uv.main - INFO - Factorio Autonomous AI - Kruise_Kontrol + Screen Vision + PPO
+2026-10-14 12:55:59,351 - factorio_ai_uv.main - INFO - ============================================================
+2026-10-14 12:55:59,351 - factorio_ai_uv.main - INFO - Initializing environment...
+2026-10-14 12:55:59,363 - factorio_ai_uv.screen_capture - INFO - Auto-detected Factorio window: {'top': 0, 'left': 738, 'width': 1189, 'height': 1039}
+2026-10-14 12:55:59,397 - factorio_ai_uv.client - INFO - Kruise_Kontrol_Remote connected
+2026-10-14 12:55:59,397 - factorio_ai_uv.client - INFO - Connected to Factorio RCON + Kruise_Kontrol_Remote
+2026-10-14 12:55:59,397 - factorio_ai_uv.main - INFO - Environment wrapped for training
+2026-10-14 12:55:59,399 - factorio_ai_uv.main - INFO - Initializing new PPO model with random weights
+2026-10-14 12:56:00,947 - factorio_ai_uv.main - INFO - Loaded 10 transitions from dataset
+2026-10-14 12:56:00,947 - factorio_ai_uv.main - INFO - Starting training: 5 iterations, 100 steps/iter
+2026-10-14 12:56:00,947 - factorio_ai_uv.main - INFO - Initial dataset size: 10
+2026-10-14 12:56:07,949 - factorio_ai_uv.main - INFO - [Iter 1] Retraining PPO on 110 transitions...
+2026-10-14 12:58:43,885 - factorio_ai_uv.main - INFO -   -> Model saved: factorio_ai_model\factorio_ai_iter_1 (iter time: 162.9s, dataset: 110)
+2026-10-14 12:58:51,215 - factorio_ai_uv.main - INFO - [Iter 2] Retraining PPO on 210 transitions...
+2026-10-14 13:01:28,123 - factorio_ai_uv.main - INFO -   -> Model saved: factorio_ai_model\factorio_ai_iter_2 (iter time: 164.2s, dataset: 210)
+2026-10-14 13:01:35,100 - factorio_ai_uv.main - INFO - [Iter 3] Retraining PPO on 310 transitions...
+2026-10-14 13:04:14,871 - factorio_ai_uv.main - INFO -   -> Model saved: factorio_ai_model\factorio_ai_iter_3 (iter time: 166.7s, dataset: 310)
+2026-10-14 13:04:21,983 - factorio_ai_uv.main - INFO - [Iter 4] Retraining PPO on 410 transitions...
+2026-10-14 13:27:00,839 - factorio_ai_uv.main - INFO - Running environment test only...
+2026-10-14 13:27:00,861 - factorio_ai_uv.screen_capture - INFO - Auto-detected Factorio window: {'top': -8, 'left': -8, 'width': 1936, 'height': 1048}
+2026-10-14 13:27:00,886 - factorio_ai_uv.client - INFO - Kruise_Kontrol_Remote connected
+2026-10-14 13:27:00,886 - factorio_ai_uv.client - INFO - Connected to Factorio RCON + Kruise_Kontrol_Remote
+2026-10-14 13:27:00,903 - factorio_ai_uv.main - INFO - Initial obs shape: (84, 84, 3)
+2026-10-14 13:27:01,057 - factorio_ai_uv.main - INFO - Action: move_N, Reward: 1.00
+2026-10-14 13:27:02,105 - factorio_ai_uv.main - INFO - Action: build_at_cursor, Reward: 1.00
+2026-10-14 13:27:03,222 - factorio_ai_uv.main - INFO - Action: research, Reward: 1.00
+2026-10-14 13:27:04,270 - factorio_ai_uv.main - INFO - Action: craft, Reward: 1.00
+2026-10-14 13:27:05,371 - factorio_ai_uv.main - INFO - Action: cancel, Reward: 1.00
+2026-10-14 13:27:06,388 - factorio_ai_uv.client - INFO - Disconnected from Factorio
+2026-10-14 13:27:06,388 - factorio_ai_uv.env - INFO - Environment closed
+2026-10-14 13:27:06,388 - factorio_ai_uv.main - INFO - Test complete!
+2026-10-14 13:27:16,176 - factorio_ai_uv.main - INFO - ============================================================
+2026-10-14 13:27:16,177 - factorio_ai_uv.main - INFO - Factorio Autonomous AI - Kruise_Kontrol + Screen Vision + PPO
+2026-10-14 13:27:16,177 - factorio_ai_uv.main - INFO - ============================================================
+2026-10-14 13:27:16,177 - factorio_ai_uv.main - INFO - Initializing environment...
+2026-10-14 13:27:16,193 - factorio_ai_uv.screen_capture - INFO - Auto-detected Factorio window: {'top': -8, 'left': -8, 'width': 1936, 'height': 1048}
+2026-10-14 13:27:16,220 - factorio_ai_uv.client - INFO - Kruise_Kontrol_Remote connected
+2026-10-14 13:27:16,220 - factorio_ai_uv.client - INFO - Connected to Factorio RCON + Kruise_Kontrol_Remote
+2026-10-14 13:27:16,222 - factorio_ai_uv.main - INFO - Environment wrapped for training
+2026-10-14 13:27:16,223 - factorio_ai_uv.main - INFO - Initializing new PPO model with random weights
+2026-10-14 13:27:22,105 - factorio_ai_uv.main - INFO - Loaded 310 transitions from dataset
+2026-10-14 13:27:22,106 - factorio_ai_uv.main - INFO - Starting training: 1 iterations, 20 steps/iter
+2026-10-14 13:27:22,106 - factorio_ai_uv.main - INFO - Initial dataset size: 310
+2026-10-14 13:27:24,054 - factorio_ai_uv.main - INFO - [Iter 1] Retraining PPO on 330 transitions...
+2026-10-14 13:30:29,115 - factorio_ai_uv.main - INFO -   -> Model saved: factorio_ai_model\factorio_ai_iter_1 (iter time: 187.0s, dataset: 330)
+2026-10-14 13:30:39,498 - factorio_ai_uv.main - INFO - Training complete
+2026-10-14 13:30:39,498 - factorio_ai_uv.main - INFO - Final model: factorio_ai_model\factorio_ai_final
+2026-10-14 13:30:39,498 - factorio_ai_uv.main - INFO - Dataset transitions: 330
+2026-10-14 13:30:39,498 - factorio_ai_uv.main - INFO - Training completed successfully
